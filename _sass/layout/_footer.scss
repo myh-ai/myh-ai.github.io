@@ -1,0 +1,64 @@
+/* ==========================================================================
+   FOOTER
+   Customized for Moustafa Yehia Hassan's Academic Pages site
+   ========================================================================== */
+
+.page__footer {
+  @include clearfix;
+  background-color: var(--global-footer-bg-color);
+  color: var(--global-text-color-light);
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1.5em;
+  width: 100%;
+  clear: both;
+
+  /* Important:
+     The original Academic Pages template uses position: fixed; bottom: 0;
+     That makes the footer stay on screen and cover the bottom of the page.
+     This keeps it in the normal page flow instead. */
+  position: static;
+  bottom: auto;
+
+  border-top: 1px solid var(--global-dark-border-color);
+
+  footer {
+    @include clearfix;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    max-width: 100%;
+    padding: 0.45em 1em 0.6em;
+
+    @include breakpoint($x-large) {
+      max-width: $x-large;
+    }
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .fas,
+  .fab,
+  .far,
+  .fal {
+    color: var(--global-text-color-light);
+  }
+}
+
+.page__footer-copyright {
+  font-family: $global-font-family;
+  font-size: $type-size-7;
+  margin: 0;
+}
+
+.page__footer-follow {
+  display: none;
+}
