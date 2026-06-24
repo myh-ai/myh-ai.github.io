@@ -1,0 +1,27 @@
+# Header navigation for myh-ai.github.io
+#
+# The site title on the left of the header (your name) is the Home link,
+# so a separate "Home" item is intentionally omitted.
+#
+# Order is employability-first: Research, Projects, Publications, Writing, CV, Contact.
+# Research / Projects / Publications are sections on the homepage; Writing and
+# Contact are standalone pages; CV points to the PDF.
+
+main:
+  - title: "Research"
+    url: /#research
+
+  - title: "Projects"
+    url: /#projects
+
+  - title: "Publications"
+    url: /#publications
+
+  - title: "Writing"
+    url: /writing/
+
+  - title: "CV"
+    url: /files/Moustafa_Yehia_Hassan_CV.pdf
+
+  - title: "Contact"
+    url: /contact/
