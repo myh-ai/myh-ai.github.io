@@ -62,34 +62,54 @@ classes: wide
     <div class="books">
 
       <div class="essay book">
-        <p class="btype">Novel</p>
-        <p class="bname" lang="ar" dir="rtl">حلم إفنزا</p>
-        <p class="bmeta">“Evnza’s Dream” · 2024 · Ḥikāya · 228 pp</p>
-        <p class="bdesc">A work of literary fiction.</p>
+        <div class="bhead">
+          <div class="bhead-en">
+            <p class="btype">Novel</p>
+            <p class="ben">Evnza’s Dream</p>
+          </div>
+          <p class="bname" lang="ar" dir="rtl">حلم إفنزا</p>
+        </div>
+        <p class="bmeta">Dār Ḥikāya · Kuwait · March 2025</p>
+        <p class="bdesc">Alternate history — how altering a pivotal event 550 years ago reshapes the texture of our present reality.</p>
         <p class="bview"><a href="https://www.jarir.com/kw-ar/arabic-books-641179.html">View on Jarir ↗</a></p>
       </div>
 
       <div class="essay book">
-        <p class="btype">Novel</p>
-        <p class="bname" lang="ar" dir="rtl">العودة من الجنوب</p>
-        <p class="bmeta">“The Return from the South” · 2024 · Madārāt · 160 pp</p>
-        <p class="bdesc">A novel that braids the fantastical with the social and political, told in dense, poetic prose.</p>
+        <div class="bhead">
+          <div class="bhead-en">
+            <p class="btype">Novel</p>
+            <p class="ben">The Return from the South</p>
+          </div>
+          <p class="bname" lang="ar" dir="rtl">العودة من الجنوب</p>
+        </div>
+        <p class="bmeta">Madārāt for Research &amp; Publishing · Cairo · January 2024</p>
+        <p class="bdesc">On fractured identity, estrangement, and the search for the self in a decaying, collapsing world.</p>
         <p class="bview"><a href="https://www.abjjad.com/book/2811166723/%D8%A7%D9%84%D8%B9%D9%88%D8%AF%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%AC%D9%86%D9%88%D8%A8/2812215299">View on Abjjad ↗</a></p>
       </div>
 
       <div class="essay book">
-        <p class="btype">Novel</p>
-        <p class="bname" lang="ar" dir="rtl">القناص</p>
-        <p class="bmeta">“The Sniper”</p>
-        <p class="bdesc">A suspense-driven adventure novel.</p>
+        <div class="bhead">
+          <div class="bhead-en">
+            <p class="btype">Novel · Science Fiction</p>
+            <p class="ben">The Sniper</p>
+          </div>
+          <p class="bname" lang="ar" dir="rtl">القناص</p>
+        </div>
+        <p class="bmeta">Arab Scientific Publishers · Beirut · December 2018</p>
+        <p class="bdesc">Dystopian science fiction — the struggle between military power, civilian rule, and the people in Egypt after the failure of the January 2011 revolution.</p>
         <p class="bview"><a href="https://www.abjjad.com/book/2777678342/%D8%A7%D9%84%D9%82%D9%86%D8%A7%D8%B5/2778726918">View on Abjjad ↗</a></p>
       </div>
 
       <div class="essay book">
-        <p class="btype">Literary &amp; cultural criticism</p>
-        <p class="bname" lang="ar" dir="rtl">المثقف والآخر</p>
-        <p class="bmeta">“The Intellectual and the Other: On the Emergence of the Intellectual”</p>
-        <p class="bdesc">A critical study on the formation, history, and role of the intellectual — and the foundations of their stance toward politics, society, and the “Other.”</p>
+        <div class="bhead">
+          <div class="bhead-en">
+            <p class="btype">Literary &amp; Cultural Criticism</p>
+            <p class="ben">The Intellectual and the Other</p>
+          </div>
+          <p class="bname" lang="ar" dir="rtl">المثقف والآخر</p>
+        </div>
+        <p class="bmeta">e‑Kotob · London · March 2019</p>
+        <p class="bdesc">A comparative study of how the intellectual emerges in Egyptian versus French society — and how that shapes their role in each.</p>
         <p class="bview"><a href="https://books.google.com.sa/books?id=fT5KDwAAQBAJ">View on Google Books ↗</a></p>
       </div>
 
