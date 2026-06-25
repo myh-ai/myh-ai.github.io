@@ -17,10 +17,10 @@ classes: wide
   <section id="featured">
     <p class="eyebrow">Featured essay</p>
     <div class="essay essay--featured">
-      <p class="ename"><a href="https://escapingplanetearth.blogspot.com/2026/06/the-shape-of-weary-eyes.html">The Shape of Weary Eyes</a></p>
+      <p class="ename"><a href="https://myh-ai.github.io/epe/posts/the-shape-of-weary-eyes/">The Shape of Weary Eyes</a></p>
       <p class="etags">AI, Synthetic Patients &amp; Mental-Health NLP</p>
       <p class="edesc">A reflective essay on robotic patients, synthetic depression data, and the risk of substituting machine-generated text for genuine human clinical language — the motivation behind my work on LLM evaluation.</p>
-      <p class="eread"><a href="https://escapingplanetearth.blogspot.com/2026/06/the-shape-of-weary-eyes.html">Read essay →</a></p>
+      <p class="eread"><a href="https://myh-ai.github.io/epe/posts/the-shape-of-weary-eyes/">Read essay →</a></p>
     </div>
   </section>
 
@@ -29,31 +29,31 @@ classes: wide
     <div class="essays">
 
       <div class="essay">
-        <p class="ename"><a href="https://escapingplanetearth.blogspot.com/2026/05/the-return-of-teenage-dream.html">A Tale of Deferred Passion</a></p>
+        <p class="ename"><a href="https://myh-ai.github.io/epe/posts/a-tale-of-deferred-passion/">A Tale of Deferred Passion</a></p>
         <p class="edesc">A personal intellectual history of how cinema, science fiction, early internet culture, and the dream of artificial intelligence shaped my path toward AI research.</p>
-        <p class="eread"><a href="https://escapingplanetearth.blogspot.com/2026/05/the-return-of-teenage-dream.html">Read essay →</a></p>
+        <p class="eread"><a href="https://myh-ai.github.io/epe/posts/a-tale-of-deferred-passion/">Read essay →</a></p>
       </div>
 
       <div class="essay">
-        <p class="ename"><a href="https://escapingplanetearth.blogspot.com/2023/10/the-illusion-of-progress.html">The Illusion of Progress</a></p>
+        <p class="ename"><a href="https://myh-ai.github.io/epe/posts/the-illusion-of-progress/">The Illusion of Progress</a></p>
         <p class="edesc">On early internet communities, platform migration, cultural memory, and the uneasy meaning of technological progress.</p>
-        <p class="eread"><a href="https://escapingplanetearth.blogspot.com/2023/10/the-illusion-of-progress.html">Read essay →</a></p>
+        <p class="eread"><a href="https://myh-ai.github.io/epe/posts/the-illusion-of-progress/">Read essay →</a></p>
       </div>
 
       <div class="essay">
-        <p class="ename"><a href="https://escapingplanetearth.blogspot.com/2024/07/bridging-ones-self.html">Bridging One&rsquo;s Self</a></p>
+        <p class="ename"><a href="https://myh-ai.github.io/epe/posts/bridging-ones-self/">Bridging One&rsquo;s Self</a></p>
         <p class="edesc">A reflection on identity, experience, freedom, and the movement from inherited circumstance to self-formation.</p>
-        <p class="eread"><a href="https://escapingplanetearth.blogspot.com/2024/07/bridging-ones-self.html">Read essay →</a></p>
+        <p class="eread"><a href="https://myh-ai.github.io/epe/posts/bridging-ones-self/">Read essay →</a></p>
       </div>
 
       <div class="essay">
-        <p class="ename"><a href="https://escapingplanetearth.blogspot.com/2024/04/daydream-illusion.html">Daydream Illusion</a></p>
+        <p class="ename"><a href="https://myh-ai.github.io/epe/posts/daydream-illusion/">Daydream Illusion</a></p>
         <p class="edesc">A reflection on imagination, reality, fiction, and the tension between dreaming a life and living one.</p>
-        <p class="eread"><a href="https://escapingplanetearth.blogspot.com/2024/04/daydream-illusion.html">Read essay →</a></p>
+        <p class="eread"><a href="https://myh-ai.github.io/epe/posts/daydream-illusion/">Read essay →</a></p>
       </div>
 
     </div>
-    <p class="more"><a href="https://escapingplanetearth.blogspot.com/">More essays at Escaping Planet Earth →</a></p>
+    <p class="more"><a href="https://myh-ai.github.io/epe/">More essays at Escaping Planet Earth →</a></p>
   </section>
 
   <section id="books">

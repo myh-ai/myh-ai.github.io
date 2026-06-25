@@ -167,8 +167,8 @@ redirect_from:
   <section id="writing-teaser">
     <p class="eyebrow">Selected writing</p>
     <h2>Essays on AI, language &amp; evaluation</h2>
-    <p class="sub">Featured — <a href="https://escapingplanetearth.blogspot.com/2026/06/the-shape-of-weary-eyes.html">The Shape of Weary Eyes</a>: on synthetic depression data and the risk of substituting machine-generated text for real human clinical language.</p>
-    <p class="more"><a href="/writing/">Selected essays →</a> &nbsp;·&nbsp; <a href="https://escapingplanetearth.blogspot.com/">Escaping Planet Earth →</a></p>
+    <p class="sub">Featured — <a href="https://myh-ai.github.io/epe/posts/the-shape-of-weary-eyes/">The Shape of Weary Eyes</a>: on synthetic depression data and the risk of substituting machine-generated text for real human clinical language.</p>
+    <p class="more"><a href="/writing/">Selected essays →</a> &nbsp;·&nbsp; <a href="https://myh-ai.github.io/epe/">Escaping Planet Earth →</a></p>
   </section>
 
   <section id="news">
