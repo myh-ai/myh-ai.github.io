@@ -1,0 +1,58 @@
+# Publication records rendered on the homepage.
+# Add future papers here rather than hand-editing publication-card HTML.
+
+published:
+  - title: "The Divergence Hypothesis: Unmasking Lexical Interference and Label Bias in Mental Health NLP"
+    year: "2026"
+    status: "Published"
+    venue: "ACL BioNLP 2026"
+    note: "Association for Computational Linguistics · pages 1–14"
+    summary: >-
+      Detects lexical interference and label-source bias in mental-health NLP classifiers
+      through a white-box triple-stream probe and a difference-in-differences audit statistic.
+    links:
+      - label: "Paper"
+        url: "https://aclanthology.org/2026.bionlp-1.1/"
+      - label: "PDF"
+        url: "https://aclanthology.org/2026.bionlp-1.1.pdf"
+      - label: "DOI"
+        url: "https://doi.org/10.18653/v1/2026.bionlp-1.1"
+      - label: "BibTeX"
+        url: "https://aclanthology.org/2026.bionlp-1.1.bib"
+      - label: "Code"
+        url: "https://github.com/myh-ai/TSS-Probe-CMH"
+
+  - title: "The Signal in the Noise: An Auditable Reliability Layer for Biomedical Text Classification"
+    year: "2026"
+    status: "Published"
+    venue: "IEEE ICBCB 2026"
+    note: "IEEE Xplore · corresponding author"
+    summary: >-
+      Builds a deterministic biomedical-NLP reliability layer with bounded correction,
+      margin-based abstention, safety gates, and token-level decision traces.
+    links:
+      - label: "IEEE Xplore"
+        url: "https://ieeexplore.ieee.org/document/11621198"
+      - label: "Code"
+        url: "https://github.com/myh-ai/the_signal_in_the_noise_CORD19_project"
+
+manuscripts:
+  - title: "The Stereotype-Lock Effect: Over-Simulation and Variance Compression in LLM Simulated-Patient Personas"
+    year: "2026"
+    status: "Manuscript under review"
+    summary: >-
+      Audits LLM-simulated depression personas, revealing over-simulation and variance
+      compressed to a fraction of the human clinical reference.
+    links:
+      - label: "Code"
+        url: "https://github.com/myh-ai/Stereotype-Lock-tss_w"
+
+  - title: "The Population-Geometry Gap: Patient Simulation that Looks Right Sentence-by-Sentence but Deforms as a Population"
+    year: "2026"
+    status: "Manuscript under review"
+    summary: >-
+      Shows that synthetic patient text can deform population-level geometry even when
+      individual sentences look plausible, motivating geometry-level diagnosis.
+    links:
+      - label: "Code"
+        url: "https://github.com/myh-ai/tss-w_PGG"

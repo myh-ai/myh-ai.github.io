@@ -56,6 +56,12 @@
       {% if author.orcid %}
         <li><a href="{{ author.orcid }}"><i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID</a></li>
       {% endif %}
+      {% if author.aclanthology %}
+        <li><a href="{{ author.aclanthology }}"><i class="fas fa-fw fa-book-open icon-pad-right" aria-hidden="true"></i>ACL Anthology</a></li>
+      {% endif %}
+      {% if author.openreview %}
+        <li><a href="{{ author.openreview }}"><i class="fas fa-fw fa-comments icon-pad-right" aria-hidden="true"></i>OpenReview</a></li>
+      {% endif %}
       {% if author.pubmed %}
         <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed ai-fw icon-pad-right"></i>PubMed</a></li>
       {% endif %}                        

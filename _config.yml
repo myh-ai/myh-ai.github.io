@@ -33,7 +33,9 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=EqmgPx4AAAAJ&hl=en"
   inspire-hep      :
   impactstory      :
-  orcid            : "https://orcid.org/0009-0007-6324-3770"
+  orcid            : "https://orcid.org/0009-0007-6324-3770?lang=en"
+  aclanthology     : "https://aclanthology.org/people/moustafa-hassan/"
+  openreview       : "https://openreview.net/profile?id=%7EMoustafa_Yehia_Hassan1"
   semantic         :
   ssrn             :
   pubmed           :
@@ -140,7 +142,7 @@ facebook:
   app_id                 :
   publisher              :
 
-og_image                 :
+og_image                 : "/images/avatar.jpg"
 og_description           : "Research portfolio of Moustafa Yehia Hassan: AI/NLP, trustworthy language models, mental-health NLP, distributional fidelity auditing, and public essays on AI and the human condition."
 
 # Social profiles
@@ -152,7 +154,9 @@ social:
     - "https://myh-ai.github.io/epe/"
     - "https://www.linkedin.com/in/moustafa-y-hassan-222ab8104/"
     - "https://scholar.google.com/citations?user=EqmgPx4AAAAJ&hl=en"
-    - "https://orcid.org/0009-0007-6324-3770"
+    - "https://orcid.org/0009-0007-6324-3770?lang=en"
+    - "https://aclanthology.org/people/moustafa-hassan/"
+    - "https://openreview.net/profile?id=%7EMoustafa_Yehia_Hassan1"
 
 # Analytics
 analytics:
@@ -191,6 +195,8 @@ exclude:
   - package.json*
   - Rakefile
   - README
+  - README.md
+  - SITE_MAINTENANCE_AR.md
   - tmp
   - vendor
 

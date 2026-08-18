@@ -10,38 +10,58 @@ redirect_from:
 {::nomarkdown}
 <div class="sn-home">
 
-  <div class="hero-top reveal">
-    <div class="hero-id">
-      <h1>Moustafa Yehia Hassan</h1>
-      <p class="role">AI / NLP Researcher · LLM Evaluation · Model Auditing · Biomedical &amp; Mental-Health NLP</p>
-      <p class="lede">
-        I build auditable evaluation pipelines that test when language models and NLP
-        classifiers <span class="em">appear</span> accurate while relying on brittle shortcuts,
-        annotation artifacts, synthetic over-simulation, or distorted population-level signals —
-        before such systems are trusted for clinical or benchmark claims.
-      </p>
-      <p class="focus"><span class="k">Current focus:</span> whether synthetic clinical text and simulated patient personas preserve the population-level structure of real human language, or merely look plausible sentence by sentence.</p>
+  <header class="hero-shell reveal">
+    <div class="hero-top">
+      <div class="hero-id">
+        <p class="hero-kicker">Trustworthy language-model evaluation</p>
+        <h1>Moustafa Yehia Hassan</h1>
+        <p class="role">AI / NLP Researcher · LLM Evaluation · Model Auditing · Biomedical &amp; Mental-Health NLP</p>
+        <p class="lede">
+          I build auditable evaluation pipelines that test when language models and NLP
+          classifiers <span class="em">appear</span> accurate while relying on brittle shortcuts,
+          annotation artifacts, synthetic over-simulation, or distorted population-level signals —
+          before such systems are trusted for clinical or benchmark claims.
+        </p>
+        <p class="focus"><span class="k">Current focus:</span> whether synthetic clinical text and simulated patient personas preserve the population-level structure of real human language, or merely look plausible sentence by sentence.</p>
+      </div>
+      <img class="avatar" src="/images/avatar.jpg" alt="Portrait of Moustafa Yehia Hassan" width="178" height="178" loading="eager" fetchpriority="high">
     </div>
-    <img class="avatar" src="/images/avatar.jpg" alt="Moustafa Yehia Hassan" width="170" height="170" loading="eager">
-  </div>
 
-  <div class="links">
-    <a href="mailto:moustafayhassan@gmail.com">Email</a>
-    <a href="/files/Moustafa_Yehia_Hassan_CV.pdf">CV (PDF)</a>
-    <a href="https://github.com/myh-ai">GitHub</a>
-    <a href="https://scholar.google.com/citations?user=EqmgPx4AAAAJ&amp;hl=en">Scholar</a>
-    <a href="https://www.linkedin.com/in/moustafa-y-hassan-222ab8104">LinkedIn</a>
-    <a href="https://orcid.org/0009-0007-6324-3770">ORCID</a>
-  </div>
+    <nav class="links links--primary" aria-label="Primary contact and professional links">
+      <a href="mailto:{{ site.author.email }}">Email</a>
+      <a href="/files/Moustafa_Yehia_Hassan_CV.pdf">CV (PDF)</a>
+      <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>
+    </nav>
+
+    <nav class="academic-links" aria-label="Academic profiles">
+      <a class="academic-link" href="{{ site.author.googlescholar }}" rel="me">
+        <span class="academic-mark" aria-hidden="true">GS</span>
+        <span>Google Scholar</span>
+      </a>
+      <a class="academic-link" href="{{ site.author.orcid }}" rel="me">
+        <span class="academic-mark" aria-hidden="true">ID</span>
+        <span>ORCID</span>
+      </a>
+      <a class="academic-link" href="{{ site.author.aclanthology }}" rel="me">
+        <span class="academic-mark" aria-hidden="true">ACL</span>
+        <span>ACL Anthology</span>
+      </a>
+      <a class="academic-link" href="{{ site.author.openreview }}" rel="me">
+        <span class="academic-mark" aria-hidden="true">OR</span>
+        <span>OpenReview</span>
+      </a>
+    </nav>
+  </header>
 
   <div class="rolefit">
     <b>Open to:</b> AI/NLP Research · LLM Evaluation · Model Auditing ·
     Biomedical / Mental-Health NLP · Remote / Qatar / GCC
   </div>
 
-  <div class="chips">
-    <span class="chip"><span class="dot"></span>ACL BioNLP 2026 — Accepted</span>
-    <span class="chip"><span class="dot"></span>IEEE ICBCB 2026 — To appear</span>
+  <div class="chips" aria-label="Research highlights">
+    <a class="chip chip--link" href="https://aclanthology.org/2026.bionlp-1.1/"><span class="dot"></span>Published · ACL BioNLP 2026</a>
+    <a class="chip chip--link" href="https://ieeexplore.ieee.org/document/11621198"><span class="dot"></span>Published · IEEE ICBCB 2026</a>
     <span class="chip"><span class="dot"></span>Distributional-fidelity auditing</span>
     <span class="chip"><span class="dot"></span>Reproducible ML pipelines</span>
   </div>
@@ -76,17 +96,17 @@ redirect_from:
     <p class="sub">End-to-end, reproducible infrastructure — not just findings.</p>
     <div class="projects-grid">
 
-      <div class="proj">
+      <article class="proj">
         <p class="pname">TSS — Triple-Stream Stress Probe</p>
         <p class="pdesc">A white-box diagnostic framework that tests whether mental-health NLP classifiers learn robust clinical signals or rely on lexical shortcuts and annotation artifacts — with an interventional masking suite for quasi-causal evidence.</p>
         <div class="pmeta">
           <p class="stack"><b>Built with</b> Python · scikit-learn · ElasticNet probes · character n-grams · masking tests · bootstrap inference</p>
-          <p class="ev"><b>Evidence</b> Accepted at ACL BioNLP 2026 · N = 12,906 across four datasets</p>
-          <p class="plinks"><a href="https://github.com/myh-ai/TSS-Probe-CMH">Code repository ↗</a> · open-source (MIT)</p>
+          <p class="ev"><b>Evidence</b> Published at ACL BioNLP 2026 · N = 12,906 across four datasets</p>
+          <p class="plinks"><a href="https://aclanthology.org/2026.bionlp-1.1/">Paper ↗</a> · <a href="https://aclanthology.org/2026.bionlp-1.1.pdf">PDF ↗</a> · <a href="https://github.com/myh-ai/TSS-Probe-CMH">Code ↗</a></p>
         </div>
-      </div>
+      </article>
 
-      <div class="proj">
+      <article class="proj">
         <p class="pname">Distributional-Fidelity Audit Pipeline</p>
         <p class="pdesc">An end-to-end pipeline comparing human clinical-language distributions with LLM-simulated personas, diagnosing population-level deformation that sentence-level metrics miss.</p>
         <div class="pmeta">
@@ -94,9 +114,9 @@ redirect_from:
           <p class="ev"><b>Evidence</b> Two manuscripts under review · five generator families audited</p>
           <p class="plinks"><a href="https://github.com/myh-ai/tss-w_PGG">PGG code ↗</a> · <a href="https://github.com/myh-ai/Stereotype-Lock-tss_w">STLE code ↗</a></p>
         </div>
-      </div>
+      </article>
 
-      <div class="proj">
+      <article class="proj">
         <p class="pname">Synthetic Validation Trap Benchmark</p>
         <p class="pdesc">A downstream benchmark testing whether depression detectors trained on LLM-generated text generalize to real human language, across many training conditions and detector families.</p>
         <div class="pmeta">
@@ -104,17 +124,17 @@ redirect_from:
           <p class="ev"><b>Evidence</b> Pre-registered protocol · frozen human holdout cohort · SHA-256 integrity checks</p>
           <p class="plinks">Code &amp; pre-registration release pending review</p>
         </div>
-      </div>
+      </article>
 
-      <div class="proj">
+      <article class="proj">
         <p class="pname">Biomedical NLP Reliability Layer</p>
         <p class="pdesc">A conservative reliability layer for biomedical text classification: deterministic correction, margin-based abstention, safety gates, and token-level audit trails.</p>
         <div class="pmeta">
           <p class="stack"><b>Built with</b> Python · BioBERT · scispaCy · UMLS · McNemar's exact test · bounded edit-distance correction</p>
-          <p class="ev"><b>Evidence</b> Accepted, IEEE ICBCB 2026 (to appear) · 94.6% error-fix recall, zero harmful edits</p>
-          <p class="plinks"><a href="https://github.com/myh-ai/the_signal_in_the_noise_CORD19_project">Code repository ↗</a> · open-source (MIT)</p>
+          <p class="ev"><b>Evidence</b> Published in IEEE Xplore · 94.6% error-fix recall, zero harmful edits</p>
+          <p class="plinks"><a href="https://ieeexplore.ieee.org/document/11621198">IEEE Xplore ↗</a> · <a href="https://github.com/myh-ai/the_signal_in_the_noise_CORD19_project">Code ↗</a></p>
         </div>
-      </div>
+      </article>
 
     </div>
   </section>
@@ -127,30 +147,50 @@ redirect_from:
 
   <section id="publications">
     <p class="eyebrow">Selected publications</p>
-    <h2>Peer-reviewed &amp; under review</h2>
-    <div style="margin-top:8px;">
-      <div class="pub">
-        <p class="ttl">The Divergence Hypothesis: Unmasking Lexical Interference and Label Bias in Mental Health NLP</p>
-        <p class="contrib">Detects lexical interference and label-source bias in mental-health NLP classifiers via a white-box triple-stream probe and a difference-in-differences bias metric.</p>
-        <div class="meta"><span class="venue">Accepted · ACL BioNLP 2026</span><a href="https://github.com/myh-ai/TSS-Probe-CMH">Code ↗</a></div>
-      </div>
-      <div class="pub">
-        <p class="ttl">The Signal in the Noise: An Auditable Reliability Layer for Biomedical Text Classification</p>
-        <p class="contrib">Builds a deterministic, auditable biomedical NLP reliability layer with margin-based abstention, safety gates, and token-level decision traces.</p>
-        <div class="meta"><span class="venue">Accepted · IEEE ICBCB 2026 (to appear)</span><span>corresponding author</span><a href="https://github.com/myh-ai/the_signal_in_the_noise_CORD19_project">Code ↗</a></div>
-      </div>
-      <div class="pub">
-        <p class="ttl">The Stereotype-Lock Effect: Over-Simulation and Variance Compression in LLM Simulated-Patient Personas</p>
-        <p class="contrib">Audits LLM-simulated depression personas, revealing over-simulation and variance compressed to a fraction of the human clinical reference.</p>
-        <div class="meta"><span class="review">Manuscript under review</span><a href="https://github.com/myh-ai/Stereotype-Lock-tss_w">Code ↗</a></div>
-      </div>
-      <div class="pub">
-        <p class="ttl">The Population-Geometry Gap: Patient Simulation that Looks Right Sentence-by-Sentence but Deforms as a Population</p>
-        <p class="contrib">Shows that synthetic patient text can deform population-level geometry even when individual sentences look plausible, motivating geometry-level diagnosis.</p>
-        <div class="meta"><span class="review">Manuscript under review</span><a href="https://github.com/myh-ai/tss-w_PGG">Code ↗</a></div>
-      </div>
+    <h2>Peer-reviewed publications &amp; active manuscripts</h2>
+    <p class="sub">Publisher records, persistent identifiers, code, and citation resources are linked directly below.</p>
+
+    <div class="publication-list">
+      {% for paper in site.data.publications.published %}
+      <article class="pub pub--published" itemscope itemtype="https://schema.org/ScholarlyArticle">
+        <div class="pub__topline">
+          <span class="pub__status">{{ paper.status }}</span>
+          <span class="pub__year" itemprop="datePublished">{{ paper.year }}</span>
+        </div>
+        <h3 class="ttl" itemprop="headline">{{ paper.title }}</h3>
+        <p class="contrib" itemprop="description">{{ paper.summary }}</p>
+        <p class="pub__venue"><span>{{ paper.venue }}</span>{% if paper.note %}<span>{{ paper.note }}</span>{% endif %}</p>
+        <div class="pub__actions" aria-label="Links for {{ paper.title | escape }}">
+          {% for link in paper.links %}
+          <a href="{{ link.url }}" itemprop="url">{{ link.label }} <span aria-hidden="true">↗</span></a>
+          {% endfor %}
+        </div>
+      </article>
+      {% endfor %}
+
+      {% for paper in site.data.publications.manuscripts %}
+      <article class="pub pub--manuscript">
+        <div class="pub__topline">
+          <span class="pub__status pub__status--muted">{{ paper.status }}</span>
+          <span class="pub__year">{{ paper.year }}</span>
+        </div>
+        <h3 class="ttl">{{ paper.title }}</h3>
+        <p class="contrib">{{ paper.summary }}</p>
+        <div class="pub__actions pub__actions--muted" aria-label="Links for {{ paper.title | escape }}">
+          {% for link in paper.links %}
+          <a href="{{ link.url }}">{{ link.label }} <span aria-hidden="true">↗</span></a>
+          {% endfor %}
+        </div>
+      </article>
+      {% endfor %}
     </div>
-    <p class="more"><a href="https://scholar.google.com/citations?user=EqmgPx4AAAAJ&amp;hl=en">All publications on Google Scholar →</a></p>
+
+    <nav class="publication-profiles" aria-label="Complete publication profiles">
+      <a href="{{ site.author.googlescholar }}" rel="me">Google Scholar</a>
+      <a href="{{ site.author.aclanthology }}" rel="me">ACL Anthology author page</a>
+      <a href="{{ site.author.orcid }}" rel="me">ORCID record</a>
+      <a href="{{ site.author.openreview }}" rel="me">OpenReview profile</a>
+    </nav>
   </section>
 
   <section id="background">
@@ -175,8 +215,8 @@ redirect_from:
     <p class="eyebrow">News</p>
     <h2>Recent</h2>
     <div class="news" style="margin-top:8px;">
-      <div class="row"><span class="yr">2026</span><span>ACL BioNLP paper accepted on lexical interference and label bias in mental-health NLP.</span></div>
-      <div class="row"><span class="yr">2026</span><span>IEEE ICBCB paper accepted on auditable biomedical NLP reliability (to appear).</span></div>
+      <div class="row"><span class="yr">2026</span><span><a href="https://aclanthology.org/2026.bionlp-1.1/">The Divergence Hypothesis</a> published in the ACL Anthology as part of BioNLP 2026.</span></div>
+      <div class="row"><span class="yr">2026</span><span><a href="https://ieeexplore.ieee.org/document/11621198">The Signal in the Noise</a> published in IEEE Xplore.</span></div>
       <div class="row"><span class="yr">2026</span><span>Building distributional-fidelity auditing pipelines for synthetic clinical text; two manuscripts under review.</span></div>
       <div class="row"><span class="yr">2026</span><span>Open to AI/NLP research, LLM evaluation, model auditing, and biomedical / mental-health NLP roles.</span></div>
     </div>

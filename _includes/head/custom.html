@@ -19,17 +19,31 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#F8F6F1"/>
 
-<!-- open all links in a new tab (keep same-page section anchors in place) -->
+<!-- Open external resources and PDFs in a new tab; keep internal navigation in place. -->
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    var links = document.getElementsByTagName('a');
+    var links = document.querySelectorAll('a[href]');
     for (var i = 0; i < links.length; i++) {
-      var href = links[i].getAttribute('href');
-      if (!href) continue;                      // skip buttons/toggles with no href
-      if (href.charAt(0) === '#') continue;     // same-page anchor
-      if (href.indexOf('/#') !== -1) continue;  // home-section anchor
-      links[i].setAttribute('target', '_blank');
-      links[i].setAttribute('rel', 'noopener noreferrer');
+      var link = links[i];
+      var href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || href.indexOf('/#') !== -1) continue;
+      if (/^(mailto:|tel:|javascript:)/i.test(href)) continue;
+
+      try {
+        var url = new URL(href, document.baseURI || window.location.href);
+        var pageOrigin = new URL(document.baseURI || window.location.href).origin;
+        var isExternal = url.origin !== pageOrigin;
+        var isPdf = /\.pdf$/i.test(url.pathname);
+        if (!isExternal && !isPdf) continue;
+
+        if (!link.hasAttribute('target')) link.setAttribute('target', '_blank');
+        var relTokens = (link.getAttribute('rel') || '').split(/\s+/).filter(Boolean);
+        if (relTokens.indexOf('noopener') === -1) relTokens.push('noopener');
+        if (relTokens.indexOf('noreferrer') === -1) relTokens.push('noreferrer');
+        link.setAttribute('rel', relTokens.join(' '));
+      } catch (err) {
+        // Leave malformed or non-standard links untouched.
+      }
     }
   });
 </script>
